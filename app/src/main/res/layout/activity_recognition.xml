@@ -1,0 +1,29 @@
+<LinearLayout android:id="@+id/container"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="net.badata.tesstwoexample.RecognitionActivity"
+              tools:ignore="MergeRootFrame">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <net.badata.tesstwoexample.camera.CameraView
+            android:id="@+id/camera_surface"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/camera_ocr_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="makeOCR"
+        android:text="@string/button_perform_ocr"/>
+</LinearLayout>

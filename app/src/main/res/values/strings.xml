@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">OCR Example</string>
+    <string name="action_show_text_bounds">Show text bounds</string>
+    <string name="progress_message_ocr">Text recognition in progress&#8230;</string>
+    <string name="button_perform_ocr">OCR</string>
+
+    <string name="dialog_ocr_title">OCR Result</string>
+    <string name="dialog_ocr_button">Dismiss</string>
+</resources>
